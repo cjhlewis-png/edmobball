@@ -23,6 +23,7 @@
 const watched=[
 {type:"camp",date:"2027-01-09",title:"TNBA winter Saturday skills training",body:"Registration is open for an eight-week Saturday program beginning January 9. Ages 12–13 and 14–16 train from 5–7 p.m. at the TNBA Gym; fee: $415.",source:"True North Basketball Academy",url:"https://www.truenorthbasketballacademy.com/skillstraining"},
 {type:"watch",date:"2026-11-11",title:"Watch: GOOD Hoops school-break camps",body:"GOOD Hoops has posted camps for November 11–13, December 21–23 and 28–30, and March 29–April 2. Sessions run 9 a.m.–3 p.m.; age eligibility is not stated on the organizer page, so confirm U13–U16 availability before registering.",source:"GOOD Hoops",url:"https://goodhoops.ca/edmonton-basketball-camps"},
+{type:"watch",title:"Watch: Grads 2027 spring/summer program",body:"Grads has announced a January–August 2027 program for U13 and U15 girls, with two weekly development sessions, one game day and 4–5 Edmonton tournaments. December open-gym times, fees and registration details are still to come.",source:"Edmonton Grads",url:"https://www.gradsbasketball.ca/"},
 {type:"tournament",date:"2027-04-09",title:"GOOD Hoops Girls Spring Invitational",body:"April 9–11, 2027 for 11U, 13U, 15U and 18U girls, with four guaranteed games. Registration deadline: March 27; fee: $750 plus GST.",source:"GOOD Hoops",url:"https://goodhoops.ca/basketball-tournaments"},
 {type:"tournament",date:"2027-04-30",title:"GOOD Hoops Spring Classic",body:"April 30–May 2, 2027 for 11U, 13U, 15U and 18U boys and girls, with four guaranteed games. Registration deadline: April 1; fee: $750 plus GST.",source:"GOOD Hoops",url:"https://goodhoops.ca/basketball-tournaments"},
 {type:"tournament",date:"2027-05-28",title:"GOOD Hoops Summer Slam",body:"May 28–30, 2027 for 11U, 13U, 15U and 18U boys and girls. Four-game guarantee; fee: $750 plus GST.",source:"GOOD Hoops",url:"https://goodhoops.ca/basketball-tournaments"},
@@ -39,12 +40,12 @@ const clubs=[
 {title:"Northwest Zone Basketball Association",tag:"Community / zone",body:"Northwest Edmonton zone association with registration and evaluation information.",url:"https://northwestbasketball.ca/",source:"northwestbasketball.ca"}
 ];
 const sources=[
-{title:"Alberta Basketball Association",tag:"Tournaments",body:"Sanctioned club-tournament listings and provincial basketball information.",url:"https://www.abbasketball.ca/",source:"Last checked 30 Oct 2026"},
-{title:"EYBA",tag:"Community leagues",body:"Edmonton Youth Basketball Association announcements and zone information.",url:"https://www.eyba.ca/",source:"Last checked 30 Oct 2026"},
-{title:"Genesis YEG",tag:"Club",body:"Programs, travel teams, training and tournament information.",url:"https://genesisbasketballyeg.ca/",source:"Last checked 30 Oct 2026"},
-{title:"GOOD Hoops",tag:"Club",body:"Camps, teams, training and circuit-program updates.",url:"https://goodhoops.ca/",source:"Last checked 30 Oct 2026"},
-{title:"West Elite Basketball Association",tag:"Club",body:"Program, tryout and tournament notices.",url:"https://sites.google.com/view/west-elite-basketball/home",source:"Last checked 30 Oct 2026"},
-{title:"Exposure Events — Alberta",tag:"Tournaments",body:"Tournament platform used by some Alberta event directors.",url:"https://basketball.exposureevents.com/",source:"Last checked 30 Oct 2026"}
+{title:"Alberta Basketball Association",tag:"Tournaments",body:"Sanctioned club-tournament listings and provincial basketball information.",url:"https://www.abbasketball.ca/",source:"Last checked 3 Nov 2026"},
+{title:"EYBA",tag:"Community leagues",body:"Edmonton Youth Basketball Association announcements and zone information.",url:"https://www.eyba.ca/",source:"Last checked 3 Nov 2026"},
+{title:"Genesis YEG",tag:"Club",body:"Programs, travel teams, training and tournament information.",url:"https://genesisbasketballyeg.ca/",source:"Last checked 3 Nov 2026"},
+{title:"GOOD Hoops",tag:"Club",body:"Camps, teams, training and circuit-program updates.",url:"https://goodhoops.ca/",source:"Last checked 3 Nov 2026"},
+{title:"West Elite Basketball Association",tag:"Club",body:"Program, tryout and tournament notices.",url:"https://sites.google.com/view/west-elite-basketball/home",source:"Last checked 3 Nov 2026"},
+{title:"Exposure Events — Alberta",tag:"Tournaments",body:"Tournament platform used by some Alberta event directors.",url:"https://basketball.exposureevents.com/",source:"Last checked 3 Nov 2026"}
 ];
 const modal=document.querySelector("#leadModal"),storageKey="edmoball-family-leads";
 function esc(s){const d=document.createElement("div");d.textContent=s||"";return d.innerHTML}
