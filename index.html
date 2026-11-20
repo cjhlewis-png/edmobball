@@ -21,6 +21,7 @@
 </main>
 <script>
 const watched=[
+{type:"watch",date:"2027-06-11",title:"Watch: Showdown Series 2027 calendar",body:"Seven Edmonton tournaments are posted: June JamFest (June 11–13), Bring The Heat (July 23–25), Summer Gauntlet (August 13–15), Royal Showdown (August 27–29), Autumn Showdown (October 22–24), November Rumble (November 12–14) and Sub-Zero Showdown (November 19–21). Divisions and pricing are still coming, so U13–U16 eligibility is not yet confirmed.",source:"Showdown Series",url:"https://eliteacesathletics.com/showdownseries/tournaments"},
 {type:"tournament",date:"2026-12-27",title:"Swoosh Christmas Jam",body:"December 27–29 at Legacy Athletics for junior-high and high-school junior boys and girls. Team fee: $750; registration is available through the organizer page.",source:"Swoosh Canada Tournaments",url:"https://www.swooshcanadatournaments.com/swoosh-christmas-jam"},
 {type:"tournament",date:"2027-03-26",title:"Swoosh 2027 Edmonton tournament calendar",body:"Confirmed events for U13–U16 include Maximum Madness (March 26–28), Volvo of Edmonton Challenge (May 21–23), Raise The Youth (June 4–6), Delta South Classic (July 9–11) and Maximum Madness 2 (August 6–8). Posted team fee: $750 per event; some later registrations are interest-list only.",source:"Swoosh Canada Tournaments",url:"https://www.swooshcanadatournaments.com/upcoming-tournaments"},
 {type:"tryout",date:"2027-01-17",title:"Team Alberta U15 open tryouts",body:"Registration is open for 2012–2014 birth years; fee: $50. U15 women try out January 17 and U15 men January 24 at the Saville Centre, with morning and afternoon sessions required. Invited final tryouts follow in April.",source:"Alberta Basketball Association",url:"https://basketballalberta.msa4.rampinteractive.com/content/2026-team-alberta"},
@@ -44,14 +45,14 @@ const clubs=[
 {title:"Northwest Zone Basketball Association",tag:"Community / zone",body:"Northwest Edmonton zone association with registration and evaluation information.",url:"https://northwestbasketball.ca/",source:"northwestbasketball.ca"}
 ];
 const sources=[
-{title:"Swoosh Canada Tournaments",tag:"Tournaments",body:"Edmonton tournament dates, divisions, venues and registration links.",url:"https://www.swooshcanadatournaments.com/upcoming-tournaments",source:"Last checked 17 Nov 2026"},
-{title:"Showdown Series",tag:"Tournaments",body:"Organizer pages and registration links for Edmonton youth tournaments.",url:"https://eliteacesathletics.com/showdownseries/tournaments",source:"Last checked 17 Nov 2026"},
-{title:"Alberta Basketball Association",tag:"Provincial / tournaments",body:"Team Alberta tryouts, sanctioned club tournaments and provincial basketball information.",url:"https://www.abbasketball.ca/",source:"Last checked 17 Nov 2026"},
-{title:"EYBA",tag:"Community leagues",body:"Edmonton Youth Basketball Association announcements and zone information.",url:"https://www.eyba.ca/",source:"Last checked 17 Nov 2026"},
-{title:"Genesis YEG",tag:"Club",body:"Programs, travel teams, training and tournament information.",url:"https://genesisbasketballyeg.ca/",source:"Last checked 17 Nov 2026"},
-{title:"GOOD Hoops",tag:"Club",body:"Camps, teams, training and circuit-program updates.",url:"https://goodhoops.ca/",source:"Last checked 17 Nov 2026"},
-{title:"West Elite Basketball Association",tag:"Club",body:"Program, tryout and tournament notices.",url:"https://sites.google.com/view/west-elite-basketball/home",source:"Last checked 17 Nov 2026"},
-{title:"Exposure Events — Alberta",tag:"Tournaments",body:"Tournament platform used by some Alberta event directors.",url:"https://basketball.exposureevents.com/",source:"Last checked 17 Nov 2026"}
+{title:"Swoosh Canada Tournaments",tag:"Tournaments",body:"Edmonton tournament dates, divisions, venues and registration links.",url:"https://www.swooshcanadatournaments.com/upcoming-tournaments",source:"Last checked 20 Nov 2026"},
+{title:"Showdown Series",tag:"Tournaments",body:"Organizer pages and registration links for Edmonton youth tournaments.",url:"https://eliteacesathletics.com/showdownseries/tournaments",source:"Last checked 20 Nov 2026"},
+{title:"Alberta Basketball Association",tag:"Provincial / tournaments",body:"Team Alberta tryouts, sanctioned club tournaments and provincial basketball information.",url:"https://www.abbasketball.ca/",source:"Last checked 20 Nov 2026"},
+{title:"EYBA",tag:"Community leagues",body:"Edmonton Youth Basketball Association announcements and zone information.",url:"https://www.eyba.ca/",source:"Last checked 20 Nov 2026"},
+{title:"Genesis YEG",tag:"Club",body:"Programs, travel teams, training and tournament information.",url:"https://genesisbasketballyeg.ca/",source:"Last checked 20 Nov 2026"},
+{title:"GOOD Hoops",tag:"Club",body:"Camps, teams, training and circuit-program updates.",url:"https://goodhoops.ca/",source:"Last checked 20 Nov 2026"},
+{title:"West Elite Basketball Association",tag:"Club",body:"Program, tryout and tournament notices.",url:"https://sites.google.com/view/west-elite-basketball/home",source:"Last checked 20 Nov 2026"},
+{title:"Exposure Events — Alberta",tag:"Tournaments",body:"Tournament platform used by some Alberta event directors.",url:"https://basketball.exposureevents.com/",source:"Last checked 20 Nov 2026"}
 ];
 const modal=document.querySelector("#leadModal"),storageKey="edmoball-family-leads";
 function esc(s){const d=document.createElement("div");d.textContent=s||"";return d.innerHTML}
